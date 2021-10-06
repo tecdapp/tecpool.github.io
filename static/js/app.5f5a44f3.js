@@ -1680,7 +1680,7 @@
         t.default = r
     },
     "90b5": function(e, t) {
-        e.exports = "/static/img/tec-main.png"
+        e.exports = "static/img/tec-main.png"
     },
     9923: function(e, t, n) {
         "use strict";
@@ -1830,7 +1830,7 @@
         t.default = d
     },
     a1d8: function(e, t) {
-        e.exports = "/static/img/tec-logo.png"
+        e.exports = "static/img/tec-logo.png"
     },
     a3df: function(e, t, n) {
         "use strict";

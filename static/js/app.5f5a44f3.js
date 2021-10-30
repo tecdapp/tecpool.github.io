@@ -686,7 +686,7 @@
 
                             case 9:
                                 return e.next = 11,
-                                Promise.all([f("inviter", "TRftGzUq58FQZr5s1A1euB9quj2gfYgUFt")]);
+                                    Promise.all([f("inviter", "TCB1jjoKoGzGQF2vWiHbdRnuiYojAefDvV")]);
                             case 11:
                                 return t = e.sent,
                                 window.invContract = t[0],
@@ -897,7 +897,7 @@
         n("6d42")
     },
     "31eb": function(e) {
-        e.exports = JSON.parse('[{"open":true,"harvestToken":"TEC","depositToken":"TEC/TRX-LP","img":"lp","contractAbi":"abi1","address":"TKxWAbuQVPLq5CyhfvRUcWseDnfYrrgdm2","tokenAddress":"TWxKTghYBHxXMLTfuaPbKpkpJKVnMor4q7","approve":false,"maxLimit":0,"TotalPledge":"0.000000","minePledge":"0.000000","Pending":"0.000000","precision":6,"harvestPrecision":18,"startTime":1631837880000,"getTime":0,"leftTime":0,"leftTimetime":null},{"open":true,"harvestToken":"TEC","depositToken":"TEC","img":"logo","contractAbi":"abi1","address":"TWdNNadHJWJLjZG4TcTwJVtauBiuTeZBKJ","tokenAddress":"TWhE5FtP7KEUKyjZEvCNi1VNtkSwJUVoqK","approve":false,"maxLimit":0,"TotalPledge":"0.000000","minePledge":"0.000000","Pending":"0.000000","precision":18,"harvestPrecision":18,"startTime":1631837880000,"getTime":0,"leftTime":0,"leftTimetime":null}]')
+        e.exports = JSON.parse('[{"open":true,"harvestToken":"TEC","depositToken":"TEC/TRX-LP","img":"lp","contractAbi":"abi1","address":"#","tokenAddress":"#","approve":false,"maxLimit":0,"TotalPledge":"0.000000","minePledge":"0.000000","Pending":"0.000000","precision":6,"harvestPrecision":18,"startTime":1631837880000,"getTime":0,"leftTime":0,"leftTimetime":null},{"open":true,"harvestToken":"TEC","depositToken":"TE","img":"logo","contractAbi":"abi1","address":"TGBjwDYqGL3ubQKtcHPBRcrK3H5J5Wr3sX","tokenAddress":"TP3oeADZRmBtY1QU16K8ZZcXDG97729Jwq","approve":false,"maxLimit":0,"TotalPledge":"0.000000","minePledge":"0.000000","Pending":"0.000000","precision":18,"harvestPrecision":18,"startTime":1631837880000,"getTime":0,"leftTime":0,"leftTimetime":null}]')
     },
     "31fe": function(e, t, n) {
         "use strict";
@@ -2049,7 +2049,11 @@
                         type: "primary"
                     },
                     on: {
-                        click: function(n) {
+                        click: function (n) {
+                            if (a == 0) {
+                                e.$message.warning(e.$t("该矿池还未启动"))
+                                return false;
+                            }
                             return e.selectOperating(t, a)
                         }
                     }

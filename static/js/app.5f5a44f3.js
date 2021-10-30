@@ -897,7 +897,7 @@
         n("6d42")
     },
     "31eb": function(e) {
-        e.exports = JSON.parse('[{"open":true,"harvestToken":"TEC","depositToken":"TEC/TRX-LP","img":"lp","contractAbi":"abi1","address":"#","tokenAddress":"#","approve":false,"maxLimit":0,"TotalPledge":"0.000000","minePledge":"0.000000","Pending":"0.000000","precision":6,"harvestPrecision":18,"startTime":1631837880000,"getTime":0,"leftTime":0,"leftTimetime":null},{"open":true,"harvestToken":"TEC","depositToken":"TE","img":"logo","contractAbi":"abi1","address":"TGBjwDYqGL3ubQKtcHPBRcrK3H5J5Wr3sX","tokenAddress":"TP3oeADZRmBtY1QU16K8ZZcXDG97729Jwq","approve":false,"maxLimit":0,"TotalPledge":"0.000000","minePledge":"0.000000","Pending":"0.000000","precision":18,"harvestPrecision":18,"startTime":1631837880000,"getTime":0,"leftTime":0,"leftTimetime":null}]')
+        e.exports = JSON.parse('[{"open":true,"harvestToken":"TEC","depositToken":"TEC/TRX-LP","img":"lp","contractAbi":"abi1","address":"#","tokenAddress":"#","approve":false,"maxLimit":0,"TotalPledge":"0.000000","minePledge":"0.000000","Pending":"0.000000","precision":6,"harvestPrecision":18,"startTime":1631837880000,"getTime":0,"leftTime":0,"leftTimetime":null},{"open":true,"harvestToken":"TEC","depositToken":"TE","img":"logo","contractAbi":"abi1","address":"TH91b8BT3FMqiUhQXbwckY5cUv3vJZQYND","tokenAddress":"TP3oeADZRmBtY1QU16K8ZZcXDG97729Jwq","approve":false,"maxLimit":0,"TotalPledge":"0.000000","minePledge":"0.000000","Pending":"0.000000","precision":18,"harvestPrecision":18,"startTime":1631837880000,"getTime":0,"leftTime":0,"leftTimetime":null}]')
     },
     "31fe": function(e, t, n) {
         "use strict";

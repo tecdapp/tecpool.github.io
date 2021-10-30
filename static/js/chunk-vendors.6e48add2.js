@@ -5591,7 +5591,7 @@
             function u(t) {
                 !e || Object({
                     VUE_APP_TRON_NODE: "https://api.shasta.trongrid.io",
-                    VUE_APP_INVITA_ADDRESS: "TRftGzUq58FQZr5s1A1euB9quj2gfYgUFt",
+                    VUE_APP_INVITA_ADDRESS: "TCB1jjoKoGzGQF2vWiHbdRnuiYojAefDvV",
                     NODE_ENV: "production",
                     BASE_URL: ""
                 })

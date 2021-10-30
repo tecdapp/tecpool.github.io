@@ -2313,7 +2313,7 @@
                 },
                 on: {
                     click: function(t) {
-                        return e.tourl("https://justswap.io/#/scan/detail/trx/TDLzGujYbTnL5RE155mW74XFrqhNEeQ2DY")
+                        return e.tourl("https://justswap.link/#/scan/detail/trx/TDLzGujYbTnL5RE155mW74XFrqhNEeQ2DY")
                     }
                 }
             }, [e._v(" " + e._s(e.$t("去justswap购买")) + "TEC ")])], 1)])

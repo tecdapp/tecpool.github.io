@@ -1830,7 +1830,7 @@
         t.default = d
     },
     a1d8: function(e, t) {
-        e.exports = "static/img/tec-logo2.png"
+        e.exports = "static/img/tec-logo3.png"
     },
     a3df: function(e, t, n) {
         "use strict";

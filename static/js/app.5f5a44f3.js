@@ -1680,7 +1680,7 @@
         t.default = r
     },
     "90b5": function(e, t) {
-        e.exports = "static/img/tec-main.png"
+        e.exports = "static/img/tec-main3.png"
     },
     9923: function(e, t, n) {
         "use strict";
